@@ -1,0 +1,772 @@
+fileFormatVersion: 2
+guid: b080c5772f4af4cdc8f91140c5b209dd
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature_001
+    100002: bicep_L
+    100004: bicep_R
+    100006: Bone_004
+    100008: Bone_005
+    100010: Bone_006
+    100012: Bone_007
+    100014: clavicle_L
+    100016: clavicle_R
+    100018: foot01_L
+    100020: foot01_R
+    100022: foot02_L
+    100024: foot02_R
+    100026: foot03_L
+    100028: foot03_R
+    100030: forearm_L
+    100032: forearm_R
+    100034: head01
+    100036: head02
+    100038: hip_L
+    100040: hip_R
+    100042: mouth02
+    100044: neck
+    100046: niwa_001
+    100048: niwaArmature
+    100050: //RootNode
+    100052: root
+    100054: shin_L
+    100056: shin_R
+    100058: shoulder_L
+    100060: shoulder_R
+    100062: spine01
+    100064: spine02
+    100066: thigh_L
+    100068: thigh_R
+    100070: throat01
+    100072: throat02
+    100074: toe_L
+    100076: toe_R
+    400000: Armature_001
+    400002: bicep_L
+    400004: bicep_R
+    400006: Bone_004
+    400008: Bone_005
+    400010: Bone_006
+    400012: Bone_007
+    400014: clavicle_L
+    400016: clavicle_R
+    400018: foot01_L
+    400020: foot01_R
+    400022: foot02_L
+    400024: foot02_R
+    400026: foot03_L
+    400028: foot03_R
+    400030: forearm_L
+    400032: forearm_R
+    400034: head01
+    400036: head02
+    400038: hip_L
+    400040: hip_R
+    400042: mouth02
+    400044: neck
+    400046: niwa_001
+    400048: niwaArmature
+    400050: //RootNode
+    400052: root
+    400054: shin_L
+    400056: shin_R
+    400058: shoulder_L
+    400060: shoulder_R
+    400062: spine01
+    400064: spine02
+    400066: thigh_L
+    400068: thigh_R
+    400070: throat01
+    400072: throat02
+    400074: toe_L
+    400076: toe_R
+    4300000: niwa_001
+    7400000: niwa_anim
+    7400002: Armature_001Action
+    7400004: ArmatureAction
+    7400006: Default
+    7400008: Wander
+    7400010: Run
+    7400012: Walk
+    7400014: Jump
+    7400016: Knockback
+    9500000: //RootNode
+    13700000: niwa_001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Wander
+      takeName: Armature_001Action
+      firstFrame: -1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/niwaArmature
+        weight: 1
+      - path: Armature_001/niwaArmature/root
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L/foot03_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L/foot03_L/toe_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R/foot03_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R/foot03_R/toe_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005/Bone_006
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005/Bone_006/Bone_007
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L/bicep_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L/bicep_L/forearm_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R/bicep_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R/bicep_R/forearm_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/head01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/head01/head02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/mouth02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/throat01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/throat01/throat02
+        weight: 1
+      - path: niwa_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Default
+      takeName: mixamo.com
+      firstFrame: 43
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/niwaArmature
+        weight: 1
+      - path: Armature_001/niwaArmature/root
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L/foot03_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L/foot03_L/toe_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R/foot03_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R/foot03_R/toe_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005/Bone_006
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005/Bone_006/Bone_007
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L/bicep_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L/bicep_L/forearm_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R/bicep_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R/bicep_R/forearm_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/head01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/head01/head02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/mouth02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/throat01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/throat01/throat02
+        weight: 1
+      - path: niwa_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: mixamo.com
+      firstFrame: 43
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/niwaArmature
+        weight: 1
+      - path: Armature_001/niwaArmature/root
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L/foot03_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L/foot03_L/toe_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R/foot03_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R/foot03_R/toe_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005/Bone_006
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005/Bone_006/Bone_007
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L/bicep_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L/bicep_L/forearm_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R/bicep_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R/bicep_R/forearm_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/head01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/head01/head02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/mouth02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/throat01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/throat01/throat02
+        weight: 1
+      - path: niwa_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/niwaArmature
+        weight: 1
+      - path: Armature_001/niwaArmature/root
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L/foot03_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L/foot03_L/toe_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R/foot03_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R/foot03_R/toe_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005/Bone_006
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005/Bone_006/Bone_007
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L/bicep_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L/bicep_L/forearm_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R/bicep_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R/bicep_R/forearm_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/head01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/head01/head02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/mouth02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/throat01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/throat01/throat02
+        weight: 1
+      - path: niwa_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: mixamo.com
+      firstFrame: 168
+      lastFrame: 175.399994
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/niwaArmature
+        weight: 1
+      - path: Armature_001/niwaArmature/root
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L/foot03_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L/foot03_L/toe_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R/foot03_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R/foot03_R/toe_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005/Bone_006
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005/Bone_006/Bone_007
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L/bicep_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L/bicep_L/forearm_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R/bicep_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R/bicep_R/forearm_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/head01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/head01/head02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/mouth02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/throat01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/throat01/throat02
+        weight: 1
+      - path: niwa_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Knockback
+      takeName: mixamo.com
+      firstFrame: 191
+      lastFrame: 252
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/niwaArmature
+        weight: 1
+      - path: Armature_001/niwaArmature/root
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L/foot03_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_L/thigh_L/shin_L/foot01_L/foot02_L/foot03_L/toe_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R/foot03_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/hip_R/thigh_R/shin_R/foot01_R/foot02_R/foot03_R/toe_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005/Bone_006
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/Bone_004/Bone_005/Bone_006/Bone_007
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L/bicep_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_L/shoulder_L/bicep_L/forearm_L
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R/bicep_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/clavicle_R/shoulder_R/bicep_R/forearm_R
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/head01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/head01/head02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/mouth02
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/throat01
+        weight: 1
+      - path: Armature_001/niwaArmature/root/spine01/spine02/neck/throat01/throat02
+        weight: 1
+      - path: niwa_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 9.99999975e-05
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
