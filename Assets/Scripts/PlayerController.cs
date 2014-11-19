@@ -1,15 +1,43 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour 
+{
+	public float speed = 3;
+	public float jumpPower = 6;
+
+	private Vector3 direction = Vector3.zero;
+
+	private CharacterController playerController;
+
 
 	// Use this for initialization
-	void Start () {
-	
+	void Start () 
+	{
+		playerController = GetComponent<CharacterController>();
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void Update () 
+	{
+		if (playerController.isGrounded) {
+			float inputX = Input.GetAxis ("Horizontal");
+			float inputY = Input.GetAxis ("Vertical");
+
+			Vector3 inputDirection = new Vector3 (inputX, 0, inputY);
+			direction = Vector3.zero;
+
+			if (inputDirection.magnitude > 0.1) {
+				transform.LookAt (transform.position + inputDirection);
+				direction += transform.forward * speed;
+			}
+
+			if (Input.GetButton("Jump")) {
+				direction.y += jumpPower;
+			}
+
+		}
+		direction.y += Physics.gravity.y * Time.deltaTime;
+		playerController.Move (direction * Time.deltaTime);
 	}
 }
