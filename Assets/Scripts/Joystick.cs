@@ -83,16 +83,16 @@ public class Joystick : MonoBehaviour
 
 			guiCenter.x = defaultRect.x + guiTouchOffset.x;
 			guiCenter.y = defaultRect.y + guiTouchOffset.y;
-//
-//			guiBoundary.Min.x = defaultRect.x - guiTouchOffset.x;
-//			guiBoundary.Min.y = defaultRect.y - guiTouchOffset.y;
-//
-			guiBoundary.Min = Vector2((defaultRect.x - guiTouchOffset.x), (defaultRect.y - guiTouchOffset.y));
-			guiBoundary.Max = Vector2((defaultRect.x + guiTouchOffset.x), (defaultRect.y + guiTouchOffset.y));
+			//
+			float MinX = defaultRect.x - guiTouchOffset.x;
+			float MinY = defaultRect.y - guiTouchOffset.y;
+			float MaxX = defaultRect.x + guiTouchOffset.x;
+			float MaxY = defaultRect.y + guiTouchOffset.y;
+
+			guiBoundary.Min = new Vector2(MinX, MinY);
+			guiBoundary.Max = new Vector2(MaxX, MaxY);
 
 
-//			guiBoundary.Max.x = defaultRect.x + guiTouchOffset.x;
-//			guiBoundary.Max.y = defaultRect.y + guiTouchOffset.y;
 		}
 	}
 
