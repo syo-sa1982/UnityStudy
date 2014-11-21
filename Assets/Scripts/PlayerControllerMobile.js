@@ -5,8 +5,8 @@ public var jumpPower : float = 6;
 
 private var direction : Vector3 = Vector3.zero;
 private var playerController : CharacterController;
-private var leftJoystick : Joystick;
-private var abutton : Joystick;
+//private var leftJoystick : Joystick;
+//private var abutton : Joystick;
 
 
 function Start () {
